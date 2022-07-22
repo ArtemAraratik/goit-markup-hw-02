@@ -1,0 +1,44 @@
+/* body */
+body {
+    font-family: 'Robot', 'sans-serif';
+    font-style: normal;
+    color: #000000;
+}
+
+/* logo */
+.logo-web {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+    }
+.logo-studio {
+    color: #212121;
+}
+
+/* menu-nav */
+.nav-item-studio, .nav-item-portfolio, .nav-item-contact {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: white;
+}
+.nav-link {
+    color: #000000;
+}
+ .nav-link:hover, .nav-link:focus {
+    color:#2196F3;
+ }
+ .header-contact-items {
+    color: white;
+ }
+ .header-contact-link {
+    color: #757575;
+ }
+ .header-contact-link:hover, .header-contact-link:focus {
+    color: #2196F3;
+ }
