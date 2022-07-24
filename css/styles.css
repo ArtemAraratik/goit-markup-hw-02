@@ -12,13 +12,18 @@ body {
     line-height: 1,19;
     letter-spacing: 0.03em;
     color: #2196F3;
+   text-decoration: none;
     }
 .logo-studio {
     color: #212121;
+    text-decoration: none;
+}
+.logo-web:hover, .logo-web:focus {
+   text-decoration: underline #2196F3;
 }
 
 /* menu-nav */
-.nav-item-studio, .nav-item-portfolio, .nav-item-contact {
+.nav-item {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -29,25 +34,30 @@ body {
 }
 .nav-link {
     color: #000000;
+    text-decoration: none;
 }
  .nav-link:hover, .nav-link:focus {
     color:#2196F3;
+    text-decoration: underline #2196F3;
+    
  }
  .header-contact-items {
     color: white;
  }
  .header-contact-link {
     color: #757575;
+    text-decoration: none;
  }
  .header-contact-link:hover, .header-contact-link:focus {
     color: #2196F3;
+    text-decoration: underline #2196F3;
  }
  /* first-block */
  .first-block {
     background-color:rgba(47, 48, 58, 1);
  }
- .first-block>h1 {
-       font-family: 'Roboto';
+ .first-block-title {
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -62,25 +72,23 @@ body {
     height: 50px;
     left: 700px;
     top: 430px;
-    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
  }
- .first-block>span {
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 30px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.06em;
-    color: #FFFFFF;
+ .btn:hover, .btn:focus {
+    background-color: #188ce8;
+    color: #FFFFF; 
  }
- .btn {
-
+  .btn {
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 30px;
+   color: #000000;
+   background: #F5F4FA;
+   border-radius: 4px;
+ }
+ .btn:hover {
+   background: #2196F3;
  }
  /* credo-block */
  h3 {
@@ -137,17 +145,48 @@ body {
  footer {
     background-color: #2F303A;
  }
+ .address-items {
+   color: #2F303A;
+ }
  .address-map {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #FFFFFF;
+    text-decoration: none;
  }
  .address-mail, .address-tel {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
  }
+ .address-map:hover {
+   text-decoration: underline #2196F3;
+ }
+ .address-map:focus {
+   text-decoration: underline #2196F3;
+ }
+.address-mail:hover {
+   text-decoration: underline #2196F3;
+}
+.address-mail:focus {
+   text-decoration: underline #2196F3;
+}
+.address-tel:hover {
+   text-decoration: underline #2196F3;
+}
+.address-tel:focus {
+   text-decoration: underline #2196F3;
+}
+/* portfolio */
+.fillter-items {
+   color: #FFFFFF;
+}
