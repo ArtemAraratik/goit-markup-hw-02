@@ -7,15 +7,17 @@
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,900;1,700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="./css/styles.css"/>
 </head>
 <body>
 <header>
     <a href="./index.html" class="logo-web">Web<span class="logo-studio">Studio</span></a>
- <nav>
+ <nav class="nav">
     <ul class="nav-list">
-    <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
+    <li class="nav-item"><a href="./index.html" class="nav-link current">Студия</a></li>
     <li class="nav-item"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
     <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
     </ul>
@@ -28,38 +30,38 @@
 <main>
     <section class="first-block">
         <h1 class="first-block-title">Эффективные решения для вашего бизнеса</h1>
-        <button type="button" class="btn">Заказать услугу</button>
+        <button type="button" class="btn take-to-work">Заказать услугу</button>
     </section>
     <section class="credo-block">
-        <ul>
-            <li>
-                <h3>Внимание к деталям</h3>
+        <ul class="credo-list">
+            <li class="credo-items">
+                <h3 class="credo-names">Внимание к деталям</h3>
                 <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
             </li>
-            <li>
-                <h3>Пунктуальность</h3>
+            <li class="credo-items">
+                <h3 class="credo-names">Пунктуальность</h3>
                 <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
             </li>
-            <li>
-                <h3>Планирование</h3>
+            <li class="credo-items">
+                <h3 class="credo-names">Планирование</h3>
                 <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
             </li>
-            <li>
-                <h3>Современные технологии</h3>
+            <li class="credo-items">
+                <h3 class="credo-names">Современные технологии</h3>
                 <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
         </ul>
     </section>
     <section class="what-we-do-block">
         <h2 class="title-h2">Чем мы занимаемся</h2>
-           <ul>
-            <li>
-                <img src="./images/hw1/type_on_computer.jpg" alt="type on computer" width="370" height="294">
+           <ul class="what-we-do-list">
+            <li class="what-we-do-items">
+            <img src="./images/hw1/type_on_computer.jpg" alt="type on computer" width="370" height="294">
             </li>
-            <li>
+            <li class="what-we-do-items">
             <img src="./images/hw1/visualisation_on_mobile.jpg" alt="visualisation on mobile" width="370" height="294">
             </li>
-            <li><img src="./images/hw1/colors_on_tab.jpg" alt="colors on tab" width="370" height="294"></li>
+            <li class="what-we-do-items"><img src="./images/hw1/colors_on_tab.jpg" alt="colors on tab" width="370" height="294"></li>
            </ul>       
     </section>
     <section class="team-block">
@@ -67,23 +69,23 @@
         <ul class="team-list">
             <li class="team-items">
                 <img src="./images/hw1/Igor_Demjanenko.jpg" alt="Igor Demjanenko photo" width="270" height="260">
-                <h3>Игорь Демьяненко</h3>
-                <p>Product Designer</p>
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-position">Product Designer</p>
             </li>
             <li class="team-items">
                 <img src="./images/hw1/Olga_Rolina.jpg" alt="Olga Rolina photo" width="270" height="260">
-                <h3>Ольга Репина</h3>
-                <p>Frontend Developer</p>
+                <h3 class="team-name" >Ольга Репина</h3>
+                <p class="team-position">Frontend Developer</p>
             </li>
             <li class="team-items">
                 <img src="./images/hw1/Nikolya_Tarasov.jpg" alt="Nikolya Tarasov photo" width="270" height="260">
-                <h3>Николай Тарасов</h3>
-                <p>Marketing</p>
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-position">Marketing</p>
             </li>
             <li class="team-items">
                 <img src="./images/hw1/Michael_Ermakov.jpg" alt="Michael Ermakov photo" width="270" height="260">
-                <h3>Михаил Ермаков</h3>
-                <p>UI Designer</p>
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-position">UI Designer</p>
             </li>
         </ul>
     </section>
