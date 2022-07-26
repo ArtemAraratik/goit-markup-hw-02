@@ -1,4 +1,3 @@
-/* root */
 :root{
    --logo-web-color: #2196F3;
    --footer-background-color: rgba(47, 48, 58, 1)
@@ -242,10 +241,10 @@ body {
 .portfolio-fillter {
    display: flex;
 }
-.fillter-items {
+.fillter-items, .portfolio-item {
    color: #FFFFFF;
 }
-.portfolio-list>img {
+.portfolio-photo {
    width: 370px;
    height: 294px;
 }
