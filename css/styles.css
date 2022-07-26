@@ -102,9 +102,15 @@ body {
     color: #FFFFFF; 
  }
   .btn {
-      color: #212121;
-      background: #F5F4FA;
-   
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 26px;
+   text-align: center;
+   letter-spacing: 0.03em;
+   color: #212121;
+
  }
   /* credo-block */
  .credo-list {
@@ -247,4 +253,22 @@ body {
 .portfolio-photo {
    width: 370px;
    height: 294px;
+}
+.portfolio-h2 {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 36px;
+   letter-spacing: 0.06em;
+   color: #212121;
+}
+.portfolio-p {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 30px;
+   letter-spacing: 0.03em;
+   color: #757575;
 }
