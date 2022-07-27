@@ -1,21 +1,25 @@
 :root{
    --logo-web-color: #2196F3;
-   --footer-background-color: rgba(47, 48, 58, 1)
-   
+   --footer-background-color: #2F303A;
+   --text-color: #757575;
+   --title-color: #212121;
+   --header-background-color:#FFFFFF;
+   --team-backgroun-color: #F5F4FA;
+   --main-background-color:#E5E5E5;
+   --phpto-background-color:#EEEEEE;
 }
-
 /* body */
 body {
-    font-family: 'Robota', 'Raleway' ;
-    font-style: normal;
+    font-family: 'Roboto', 'sans-serif' ;
     color: #212121;
     font-size: 14px;
-    letter-spacing: 0,03;
-    background-color: #FFFFFF;
+    letter-spacing: 0.03em
+    background-color: var(--main-background-color);
 }
 
 /* logo */
 .logo-web {
+    font-family: raleway;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
@@ -27,15 +31,24 @@ body {
     color: #212121;
     text-decoration: none;
 }
+.logo-studio-footer {
+   color: white;
+}
 .logo-web:hover, .logo-web:focus{
    color: var(--logo-web-color);
 }
 .logo-studio:hover, .logo-studio:focus {
    color: var(--logo-web-color);
 }
-
+.logo-studio-footer:hover, .logo-studio-footer:focus {
+   color: #2196F3
+}
 
 /* menu-nav */
+
+.nav-list { 
+   list-style: none;
+}
 .nav-item {
     font-family: 'Roboto';
     font-style: normal;
@@ -96,6 +109,7 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
+    background-color:#2196F3 ;
  }
  .btn:hover, .btn:focus {
     background-color: #188ce8;
@@ -109,13 +123,28 @@ body {
    line-height: 26px;
    text-align: center;
    letter-spacing: 0.03em;
-   color: #212121;
+   color: var(--title-color);
+   background-color: #F5F4FA;;
+   cursor: pointer;
 
  }
   /* credo-block */
  .credo-list {
    display: flex;
  }
+ .visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
   .credo-items {
    color: #FFFFFF
   }
@@ -136,7 +165,7 @@ body {
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: rgba(117, 117, 117, 1);
+    color: var(--text-color)
  }
 
  .credo-block {
@@ -165,17 +194,17 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--title-color)
  }
  /* team-block */
  .team-block {
-   background: #F5F4FA;
+   background: var(--team-backgroun-color)
  }
  .team-list {
    display: flex;
  } 
  .team-items {
-   color: #F5F4FA;
+   color: var(--team-backgroun-color)
  }
  .team-name {
    font-weight: 500;
@@ -246,6 +275,7 @@ body {
 /* portfolio */
 .portfolio-fillter {
    display: flex;
+   list-style: none;
 }
 .fillter-items, .portfolio-item {
    color: #FFFFFF;
