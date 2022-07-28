@@ -99,7 +99,7 @@ body {
     text-transform: uppercase;
     color: #FFFFFF;
  }
- .take-to-work {  
+ .take-to-work-btn {  
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -109,9 +109,10 @@ body {
     align-items: center;
     text-align: center;
     letter-spacing: 0.06em;
-    background-color:#2196F3 ;
+    background-color:#2196F3;
+    color: #FFFFFF;
  }
- .btn:hover, .btn:focus {
+ .btn:hover, .btn:focus, .take-to-work-btn {
     background-color: #188ce8;
     color: #FFFFFF; 
  }
